@@ -1,91 +1,76 @@
 
 # Python-Lectures  
 
+Original Version (In English) is here: https://github.com/rajathkmp/Python-Lectures
 
-
-
-Note: [Andreas Ernst](http://users.monash.edu/~andrease/) has improvised and updated the repo to python 3, [Link](https://gitlab.erc.monash.edu.au/andrease/Python4Maths/tree/master)
 
 ## Introduction
 
 Python is a modern, robust, high level programming language. It is very easy to pick up even if you are completely new to programming.
 
-## Installation
+## インストール
 
-Mac OS X and Linux comes pre installed with python. Windows users can download python from https://www.python.org/downloads/ .
+1. [Miniconda](https://conda.io/miniconda.html)のサイトから、Python 3.6のインストーラをダウンロードする
+2. ターミナルから、 bash (Installerをダウンロードしたパス) を実行する
+3. ターミナルから、以下のコマンドを実行する(miniconda3のインストールパスをデフォルトのものにした場合)
 
-To install IPython run,
+```
+$ source ~/miniconda3/bin/activate
+$ conda install notebook
+```
 
-    $ pip install ipython[all]
-    
-This will install all the necessary dependencies for the notebook, qtconsole, tests etc.
 
-### Installation from unofficial distributions
 
-Installing all the necessary libraries might prove troublesome. Anaconda and Canopy comes pre packaged with all the necessary python libraries and also IPython.
+## Jupyter Notebookの起動
 
-#### Anaconda
+ターミナルから、以下のコマンドを入力します。(miniconda3を利用してインストールした場合)
 
-Download Anaconda from https://www.continuum.io/downloads
+```
+$ source ~/miniconda3/bin/activate
+$ jupyter notebook
+```
 
-Anaconda is completely free and includes more than 300 python packages. Both python 2.7 and 3.4 options are available.
 
-#### Canopy
+## このNotebookの使い方
 
-Download Canopy from https://store.enthought.com/downloads/#default
+このリポジトリ https://github.com/yacchin1205/Python-Lectures の全てのNotebookをダウンロードし、皆さんのJupyter Notebook環境にアップロードしてください。
 
-Canopy has a premium version which offers 300+ python packages. But the free version works just fine. Canopy as of now supports only 2.7 but it comes with its own text editor and IPython environment.
-
-## Launching IPython Notebook
-
-From the terminal
-
-    ipython notebook
-
-In Canopy and Anaconda, Open the respective terminals and execute the above.
-
-## How to learn from this resource?
-
-You can download the pdf copy from here : [Get Started with Python](https://github.com/rajathkumarmp/Python-Lectures/blob/master/Python.pdf)
-
-It is better to download all the ipython notebooks from this repository https://github.com/rajathkumarmp/Python-Lectures and learn it on the notebook itself rather than having to refer to a pdf.
-
-Launch ipython notebook from the folder which contains the notebooks. Open each one of them
+あとは、Notebookを実行しながら学習してみてください。Notebookでは、メニューから、
 
     Cell > All Output > Clear
     
-This will clear all the outputs and now you can understand each statement and learn interactively.
+を選択することで、全ての出力を消去することができます。その上で、セルに記述されたコードの理解と、実行結果の確認をしてみてください。
 
-## Table of contents
-
-
-
-[00 - Introduction and Installation](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/00.ipynb)
-
-
-[01 - Variable, Operators and Built-in Functions](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/01.ipynb)
-
-
-[02 - Print Statement, Precision and FieldWidth](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/02.ipynb)
-
-
-[03 - Lists, Tuples and Sets](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/03.ipynb)
-
-
-[04 - Strings and Dictionaries](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/04.ipynb)
-
-
-[05 - Control Flow Statements](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/05.ipynb)
-
-
-[06 - Functions](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/06.ipynb)
-
-
-[07 - Classes](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/07.ipynb)
+## コンテンツ
 
 
 
-These are online read-only versions.
+[00 - Introduction and Installation](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/00.ipynb)
+
+
+[01 - Variable, Operators and Built-in Functions](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/01.ipynb)
+
+
+[02 - Print Statement, Precision and FieldWidth](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/02.ipynb)
+
+
+[03 - Lists, Tuples and Sets](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/03.ipynb)
+
+
+[04 - Strings and Dictionaries](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/04.ipynb)
+
+
+[05 - Control Flow Statements](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/05.ipynb)
+
+
+[06 - Functions](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/06.ipynb)
+
+
+[07 - Classes](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/07.ipynb)
+
+
+
+上記のリンクをクリックすると、読み込み専用でNotebookを開くことができます。
 
 ## License
 
