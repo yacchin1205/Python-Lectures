@@ -68,6 +68,10 @@ $ jupyter notebook
 
 [07 - クラス](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/07.ipynb)
 
+### 演習Notebook
+
+[演習5.1](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/exercise-5.1.ipynb)
+
 
 
 上記のリンクをクリックすると、読み込み専用でNotebookを開くことができます。
