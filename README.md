@@ -48,25 +48,25 @@ $ jupyter notebook
 [00 - Introduction and Installation](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/00.ipynb)
 
 
-[01 - Variable, Operators and Built-in Functions](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/01.ipynb)
+[01 - 変数・演算子・組み込み関数](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/01.ipynb)
 
 
-[02 - Print Statement, Precision and FieldWidth](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/02.ipynb)
+[02 - Print文・出力のフォーマット](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/02.ipynb)
 
 
-[03 - Lists, Tuples and Sets](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/03.ipynb)
+[03 - リスト・タプル・集合](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/03.ipynb)
 
 
-[04 - Strings and Dictionaries](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/04.ipynb)
+[04 - 文字列と辞書型](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/04.ipynb)
 
 
-[05 - Control Flow Statements](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/05.ipynb)
+[05 - 制御構文](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/05.ipynb)
 
 
-[06 - Functions](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/06.ipynb)
+[06 - 関数](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/06.ipynb)
 
 
-[07 - Classes](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/07.ipynb)
+[07 - クラス](http://nbviewer.ipython.org/github/yacchin1205/Python-Lectures/blob/master/07.ipynb)
 
 
 
